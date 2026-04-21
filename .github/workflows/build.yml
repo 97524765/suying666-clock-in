@@ -4,6 +4,7 @@ on:
     branches: [ master ]
   schedule:
     - cron: '0 1 * * *'
+  workflow_dispatch: # 加上这一行，开启手动触发
 jobs:
   build:
     name: Suying666-clock-in by GitHub Actions
